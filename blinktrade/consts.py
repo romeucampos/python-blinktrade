@@ -12,8 +12,8 @@ ENVIRONMENTS_CHOICES = {
 }
 
 ENVIRONMENT_TO_SERVER_MAP = {
-    Environment.PRODUCTION: 'https://api.blinktrade.com',
-    Environment.TEST: 'https://api.testnet.blinktrade.com',
+    Environment.PRODUCTION: 'https://bitcambio_api.blinktrade.com',
+    Environment.TEST: 'https://api.blinktrade.com',
 }
 
 
@@ -37,7 +37,7 @@ CURRENCIES_CHOICES = {
 class Broker:
     SURBITCOIN = '1'
     VBTC = '3'
-    FOXBIT = '4'
+    BITCAMBIO = '11'
     TESTNET = '5'
     URDUBIT = '8'
     CHILEBIT = '9'
@@ -45,7 +45,7 @@ class Broker:
 BROKERS_CHOICES = {
     Broker.SURBITCOIN: 'Sur Bitcoin',
     Broker.VBTC: 'VBTC',
-    Broker.FOXBIT: 'Foxbit',
+    Broker.BITCAMBIO: 'BitCambio',
     Broker.TESTNET: 'Testnet',
     Broker.URDUBIT: 'Urbubit',
     Broker.CHILEBIT: 'Chilebit.net',
