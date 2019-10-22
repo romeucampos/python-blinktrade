@@ -15,6 +15,6 @@ You can also install directly from the GitHub repository to have the newest feat
 
 ```bash
 git clone https://github.com/romeucampos/python-blinktrade.git
-cd python-bitcambio
+cd python-blinktrade
 python setup.py install
 ```
